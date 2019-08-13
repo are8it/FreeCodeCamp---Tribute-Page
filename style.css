@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+#main{
+    width: 800px;
+    margin: auto;
+    color: #333;
+    border: 1px solid #333;
+    padding: 20px;
+    font-family: Rubik, Helvetica, Arial, sans-serif;
+}
+#tribute-info{
+    margin-top: 15px;
+}
+#title, #img-div{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+#title, #sub-title{
+    margin: 0px;
+    z-index: 2;
+    font-weight: bolder;
+    
+}
+#main, #image{
+    box-shadow: 4px 4px 4px #DEDCD7 ;
+}
+#image{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#hr-title{
+    width: 430px;
+    height: 12px;
+    background-color: #00d6d6;
+    border: none;
+    margin: auto;
+    margin-top: -12px;
+    margin-left: 175px;
+    z-index: 1;
+}
+#hr-sub-title{
+    border-collapse: collapse;
+}
+#tribute-link{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 5px;
+    display: block;
+    width: 78px;
+    color: white;
+    background-color: #00d6d6;
+}
+#tribute-link:hover{
+    background-color: cadetblue;
+}
